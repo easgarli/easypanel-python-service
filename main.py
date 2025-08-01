@@ -12,6 +12,10 @@ app = FastAPI()
 speech_key = os.getenv("AZURE_SPEECH_KEY")
 service_region = os.getenv("AZURE_SERVICE_REGION")
 
+@app.get("/")
+async def root():
+    return {"message": "Python API service point is live."}
+
 @app.get("/tts")
 async def tts(text: str = Query(...)):
     print(f"[DEBUG] Requested text: {text}")
