@@ -4,3 +4,5 @@ python-dotenv
 numpy
 sentence-transformers
 azure-cognitiveservices-speech
+pydantic 
+transformers
