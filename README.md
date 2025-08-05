@@ -14,7 +14,7 @@ To migrate your app from Nixpacks to a Dockerfile setup in EasyPanel:
 
 ---
 
-## Integration of `/qapslit` Endpoint with n8n
+## Integration of `/qasplit` Endpoint with n8n
 
 ### HTTP Request Node Setup
 
